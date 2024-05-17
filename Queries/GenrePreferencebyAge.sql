@@ -30,8 +30,3 @@ having count(genre)=dbo.fn_MaxCountForInterval((Year(GetDate())-Year(dateOfBirth
 
 
 
-
-
-
-
-
