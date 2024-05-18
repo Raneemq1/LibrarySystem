@@ -8,3 +8,5 @@ return @count
 end
 
 select top 10 *,dbo.fn_BookBorrowingFrequency(bookId) as 'Counter' from Book
+
+create index bookId_index on Loan(bookId);
